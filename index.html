@@ -24,13 +24,23 @@
 
 </head>
 
-<body>
+<body class="">
 
 	<div class="main-wrapper">
 		<div class="container px-3 px-lg-5">
 			<article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
 
 				<div class="resume-header">
+
+					<div class="row">
+						<div class="col-md-12">
+							<label class="switch">
+								<input id="checkDarkMode" type="checkbox">
+								<span class="slider round"></span>
+							</label>
+						</div>
+					</div>
+
 					<div class="row align-items-center">
 						<div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
 							<h2 class="resume-name mb-0 text-uppercase">Arturo Guillén Berrocal</h2>
@@ -40,14 +50,16 @@
 						<div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
 							<ul class="list-unstyled mb-0">
 								<li class="mb-2"><i class="fas fa-phone-square fa-fw fa-lg me-2 "></i><a
-										class="resume-link" href="tel:+50685879135">(506) 8587-9135</a></li>
+										class="theme-link" href="tel:+50685879135" target="_blank">(506) 8587-9135</a>
+								</li>
 								<li class="mb-2"><i class="fas fa-envelope-square fa-fw fa-lg me-2"></i><a
-										class="resume-link"
-										href="mailto:arturoguillen90@gmail.com">arturoguillen90@gmail.com</a></li>
-								<li class="mb-2"><i class="fas fa-globe fa-fw fa-lg me-2"></i><a class="resume-link"
-										href="https://bsite.net/guillenba/">https://bsite.net/guillenba/</a></li>
-								<li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg me-2"></i>Guápiles, Limón
-									Costa Rica</li>
+										class="theme-link" href="mailto:arturoguillen90@gmail.com"
+										target="_blank">arturoguillen90@gmail.com</a></li>
+								<li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg me-2"></i>
+									<a class="theme-link" href="https://goo.gl/maps/U9Kawz9k2ZLAQxAM6" target="_blank">
+										Guápiles Costa Rica
+									</a>
+								</li>
 								<br>
 								<li class="mb-2"><i class="fas fa-language fa-fw fa-lg me-2"></i><button
 										id="btnLanguage" class="btn">Change to spanish</button>
@@ -82,8 +94,8 @@
 								<tr>
 									<td>
 										<p class="mb-0"> <i class="fas fa-print fa-fw fa-lg me-2 "></i> <a
-												id="printHtml" class="theme-link" onClick="window.print()"
-												target="_blank">Print this
+												id="printHtml" class="theme-link" href="" onClick="window.print()">Print
+												this
 												CV ...</a>
 										</p>
 									</td>
@@ -121,7 +133,8 @@
 
 									</div>
 									<div class="item-content texto-justificado">
-										<p id="workExperienceDescription1">Concepts, analysis and development of the strategic planning of the IT area,
+										<p id="workExperienceDescription1">Concepts, analysis and development of the
+											strategic planning of the IT area,
 											alignment of IT with the strategic plan of the organization,
 											overview of the organization of the IT department,
 											project selection, contingency plans, budget analysis and methodologies to
@@ -131,8 +144,8 @@
 								<!--//item-->
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
-										<h4 id="workExperienceHeader2" 
-										class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Middle Software
+										<h4 id="workExperienceHeader2"
+											class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Middle Software
 											Engineer</h4>
 										<div id="workExperienceDate2"
 											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">
@@ -149,8 +162,8 @@
 								<!--//item-->
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
-										<h4 id="workExperienceHeader3"  
-										class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Full Stack
+										<h4 id="workExperienceHeader3"
+											class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Full Stack
 											Developer</h4>
 										<div id="workExperienceDate3"
 											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">
@@ -168,8 +181,8 @@
 								<!--//item-->
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
-										<h4 id="workExperienceHeader4"   
-										class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Full Stack
+										<h4 id="workExperienceHeader4"
+											class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Full Stack
 											Developer</h4>
 										<div id="workExperienceDate4"
 											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">
@@ -177,7 +190,8 @@
 
 									</div>
 									<div class="item-content texto-justificado">
-										<p id="workExperienceDescription4">IT Department (Costa Rica, Panama, Nicaragua and Honduras),
+										<p id="workExperienceDescription4">IT Department (Costa Rica, Panama, Nicaragua
+											and Honduras),
 											performing systems support functions,
 											programming, systems analysis and databases.</p>
 
@@ -192,7 +206,8 @@
 								<h3 id="projects" class="text-uppercase resume-section-heading mb-4">Projects</h3>
 								<div class="item mb-3">
 									<div class="item-heading row align-items-center mb-2">
-										<h4 id="projectHeader1" class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">BCCR-CEA
+										<h4 id="projectHeader1"
+											class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">BCCR-CEA
 										</h4>
 										<div id="projectDate1"
 											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">
@@ -208,14 +223,16 @@
 								<!--//item-->
 								<div class="item">
 									<div class="item-heading row align-items-center mb-2">
-										<h4 id="projectHeader2" class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">INEC-IPC</h4>
+										<h4 id="projectHeader2"
+											class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">INEC-IPC</h4>
 										<div id="projectDate2"
 											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">
 											INEC | 2019(Jun) - 2020(feb)</div>
 
 									</div>
 									<div class="item-content texto-justificado">
-										<p id="projectDescription2">The Índice de Precios al Consumidor (IPC) is a statistical indicator that
+										<p id="projectDescription2">The Índice de Precios al Consumidor (IPC) is a
+											statistical indicator that
 											measures the
 											variation in the prices of groceries and services representative of
 											the consumption of Costa Rican households, in a given period of time.
@@ -230,14 +247,16 @@
 								<!--//item-->
 								<div class="item">
 									<div class="item-heading row align-items-center mb-2">
-										<h4 id="projectHeader3" class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">INEC-ENUT</h4>
+										<h4 id="projectHeader3"
+											class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">INEC-ENUT</h4>
 										<div id="projectDate3"
 											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">
 											INEC | 2019(jan) - 2019(may)</div>
 
 									</div>
 									<div class="item-content texto-justificado">
-										<p id="projectDescription3">The Encuesta Nacional de Uso del Tiempo (ENUT), provides statistical
+										<p id="projectDescription3">The Encuesta Nacional de Uso del Tiempo (ENUT),
+											provides statistical
 											inputs necessary to make visible all forms of work of people, both outside
 											and inside the home, whether they are paid or not. The data presented and
 											the information that can be obtained through the development of indicators
@@ -251,14 +270,16 @@
 								<!--//item-->
 								<div class="item">
 									<div class="item-heading row align-items-center mb-2">
-										<h4 id="projectHeader4" class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">INEC-ENADIS</h4>
+										<h4 id="projectHeader4"
+											class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">INEC-ENADIS</h4>
 										<div id="projectDate4"
 											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">
 											INEC | 2018(jan) - 2019(dec)</div>
 
 									</div>
 									<div class="item-content texto-justificado">
-										<p id="projectDescription4">The Encuesta Nacional sobre Discapacidad (ENADIS) is the statistical
+										<p id="projectDescription4">The Encuesta Nacional sobre Discapacidad (ENADIS) is
+											the statistical
 											operation in the country, which measures the prevalence and
 											characteristics of disability for the formulation, monitoring and evaluation
 											of public policies, and private actions that promote autonomy and the
@@ -269,7 +290,8 @@
 								<!--//item-->
 								<div class="item">
 									<div class="item-heading row align-items-center mb-2">
-										<h4 id="projectHeader5" class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">INEC-ENAHO
+										<h4 id="projectHeader5"
+											class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">INEC-ENAHO
 										</h4>
 										<div id="projectDate5"
 											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">
@@ -277,7 +299,8 @@
 
 									</div>
 									<div class="item-content texto-justificado">
-										<p id="projectDescription5">The Encuesta Nacional de Hogares (ENAHO) is a data collection program whose
+										<p id="projectDescription5">The Encuesta Nacional de Hogares (ENAHO) is a data
+											collection program whose
 											focus is
 											associated with the level of well-being of the population, especially
 											focused on the composition of household income, its distribution and
@@ -291,7 +314,8 @@
 								<!--//item-->
 								<div class="item">
 									<div class="item-heading row align-items-center mb-2">
-										<h4 id="projectHeader6" class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Colono-ERP
+										<h4 id="projectHeader6"
+											class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Colono-ERP
 										</h4>
 										<div id="projectDate6"
 											class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">
@@ -299,7 +323,8 @@
 
 									</div>
 									<div class="item-content texto-justificado">
-										<p id="projectDescription6">It is made up of integrated modules or business applications that talk to
+										<p id="projectDescription6">It is made up of integrated modules or business
+											applications that talk to
 											each other and share a common database.
 											Some modules finance, accounting, human resources, sales, purchases,
 											budgets,
@@ -324,7 +349,8 @@
 										<li id="skillTechnical5" class="mb-2">SQLServer/SSRS/SSIS</li>
 										<li id="skillTechnical6" class="mb-2">Scrum/TDD/SOLID/CI-CD</li>
 										<li id="skillTechnical7" class="mb-2">Object-oriented design</li>
-										<li id="skillTechnical8" class="mb-2">Design and implement database structures</li>
+										<li id="skillTechnical8" class="mb-2">Design and implement database structures
+										</li>
 										<li id="skillTechnical9">Lead and deliver complex software systems</li>
 									</ul>
 								</div>
@@ -345,30 +371,37 @@
 								<h3 id="education" class="text-uppercase resume-section-heading mb-4">Education</h3>
 								<ul class="list-unstyled resume-education-list">
 									<li class="mb-3">
-										<div id="educationDescription1" class="resume-degree font-weight-bold">Lic. Ingeniería de Sistemas</div>
-										<div id="educationInstitution1" class="resume-degree-org text-muted">UACA</div>
-										<div id="educationDate1" class="resume-degree-time text-muted">2017 - 2020</div>
+										<div id="educationDescription1" class="resume-degree font-weight-bold">Lic.
+											Ingeniería de Sistemas</div>
+										<div id="educationInstitution1"
+											class="resume-degree-org text-muted themeDarkh5">UACA | 2017 - 2020</div>
 									</li>
 									<li>
-										<div id="educationDescription2" class="resume-degree font-weight-bold">Bach. Informática Empresarial</div>
-										<div id="educationInstitution2" class="resume-degree-org text-muted">UCR</div>
-										<div id="educationDate2" class="resume-degree-time text-muted">2010 - 2015</div>
+										<div id="educationDescription2" class="resume-degree font-weight-bold">Bach.
+											Informática Empresarial</div>
+										<div id="educationInstitution2"
+											class="resume-degree-org text-muted themeDarkh5">UCR | 2010 - 2015</div>
 									</li>
 								</ul>
 							</section>
 							<!--//education-section-->
 							<section class="education-section py-3">
-								<h3 id="certifications" class="text-uppercase resume-section-heading mb-4">Certifications</h3>
+								<h3 id="certifications" class="text-uppercase resume-section-heading mb-4">
+									Certifications</h3>
 								<ul class="list-unstyled resume-awards-list">
 									<li class="mb-3">
-										<div id="certificationDescription1" class="font-weight-bold">Scrum Foundation Professional Certificate (SFPC)
+										<div id="certificationDescription1" class="font-weight-bold">Scrum Foundation
+											Professional Certificate (SFPC)
 										</div>
-										<div id="certificationDate1" class="text-muted">Certiprof (2020)</div>
+										<div id="certificationDate1" class="text-muted themeDarkh5">Certiprof (2020)
+										</div>
 									</li>
 									<li>
-										<div id="certificationDescription2" class="font-weight-bold">DevOps Essentials Professional Certificate (DEPC)
+										<div id="certificationDescription2" class="font-weight-bold">DevOps Essentials
+											Professional Certificate (DEPC)
 										</div>
-										<div id="certificationDate2" class="text-muted">Certiprof (2020)</div>
+										<div id="certificationDate2" class="text-muted themeDarkh5">Certiprof (2020)
+										</div>
 									</li>
 								</ul>
 							</section>
@@ -376,8 +409,11 @@
 							<section class="skills-section py-3">
 								<h3 id="languages" class="text-uppercase resume-section-heading mb-4">Languages</h3>
 								<ul class="list-unstyled resume-lang-list">
-									<li id="language1" class="mb-2">Spanish <span class="text-muted">(Native)</span></li>
-									<li id="language2"> English <span class="text-muted">(Professional 50%)</span></li>
+									<li id="language1" class="mb-2">Spanish <span
+											class="text-muted themeDarkh5">(Native)</span>
+									</li>
+									<li id="language2"> English <span class="text-muted themeDarkh5">(Professional
+											50%)</span></li>
 								</ul>
 							</section>
 							<!--//certificates-section-->
@@ -387,7 +423,7 @@
 									<li id="interest1" class="mb-2">Family</li>
 									<li id="interest2" class="mb-2">Sports</li>
 									<li id="interest3" class="mb-2">Work</li>
-									<li id="interest4"class="mb-2">Learn</li>
+									<li id="interest4" class="mb-2">Learn</li>
 									<li id="interest5">Travels</li>
 								</ul>
 							</section>
@@ -402,15 +438,15 @@
 				<hr>
 				<div class="resume-footer text-center">
 					<ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
-						<li class="list-inline-item mb-lg-0 me-3"><a class="resume-link"
+						<li class="list-inline-item mb-lg-0 me-3"><a class="theme-link"
 								href="https://github.com/arturoguillen90" target="_blank"><i
 									class="fab fa-github-square fa-2x me-2" data-fa-transform="down-4"></i><span
-									class="d-none d-lg-inline-block text-muted">github.com/arturoguillen90</span></a>
+									class="d-none d-lg-inline-block text-muted themeDarkh5">github.com/arturoguillen90</span></a>
 						</li>
-						<li class="list-inline-item mb-lg-0 me-3"><a class="resume-link"
+						<li class="list-inline-item mb-lg-0 me-3"><a class="theme-link"
 								href="https://www.linkedin.com/in/arturo-guill%C3%A9n-85a4b8182/" target="_blank"><i
 									class="fab fa-linkedin fa-2x me-2" data-fa-transform="down-4"></i><span
-									class="d-none d-lg-inline-block text-muted">linkedin.com/in/arturo-guillén-85a4b8182</span>
+									class="d-none d-lg-inline-block text-muted themeDarkh5">linkedin.com/in/arturo-guillén-85a4b8182</span>
 							</a>
 						</li>
 					</ul>
@@ -422,8 +458,8 @@
 		<!--//container-->
 
 		<footer class="footer text-center py-4">
-			<small class="copyright text-muted">Made by <a class="theme-link"
-					href="#">Arturo Guillen</a> 2022 <i class="fas fa-globe fa-fw fa-lg me-2"></i>.</small>
+			<small class="copyright text-muted themeDarkh5">Made by <a class="theme-link" href="#">90TechCR</a> 2022
+			</small>
 		</footer>
 
 	</div>
